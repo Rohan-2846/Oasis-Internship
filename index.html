@@ -3,54 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tribute to Chatrapati Shivaji Maharaj</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do App</title>
 </head>
 <body>
-    <header>
-        <h1>CHATRAPATI SHIVAJI MAHARAJ</h1>
-        <h3>(19 February 1630 – 3 April 1680)</h3>
-    </header>
     <div class="container">
-        <section class="content">
-            <img src="Shivaji Maharaj.jpg" style="height: 500px; align-self: center;">
-            <p>
-                <p>Chhatrapati Shivaji Maharaj also spelled as Sivaji was born on 19 February 1630. He was born at Shivneri which is a hill fort in Junnar in Poona, now known as Pune. 
-                Chhatrapati Shivaji Maharaj took birth into a family of bureaucrats. His father Shahji Bhonsale was a great Maratha general in the army of Bijapur Sultanate and his mother Jijabai was a great devotee of religion. He was the founder of the great Maratha kingdom of India. He was one of the bravest and marvelous rulers in the 17th century.
-
- 
-            </p>
-            <p>
-                <h4>Life History of Chhatrapati Shivaji Maharaj</h4> 
-                Chhatrapati Shivaji Maharaj was the founder of the Maratha kingdom of India. The kingdom's security was entirely based on religious tolerance and the functional integration of Brahmans, Marathas, and Prabhus.
-
- 
-
-                Shivaji Maharaj who was the descendant of a line of prominent nobles was very brave and fought many wars to consolidate India. At that time, India was under the Muslim rulers and divided. The Mughals were in north India and the Muslim sultans of Bijapur as well as of Golconda in the south of India. 
-                
-                 
-                
-                The ancestral estates of Shivaji Maharaj were situated in the Deccan region in the realm of Bijapur sultans. He found the suppression of the Muslim rulers and the persecution of all the Hindus in the region. He was sad due to the devastating condition of the Hindus that by the age of 16 he convinced himself to be the cause of the Hindu’s freedom. It was a conviction that was to sustain him throughout his whole life.
-            </p>
-            <p>
-                <h4>Childhood and Early Life of Chhatrapati Shivaji Maharaj</h4>
-He grew up studying Ramayana and also Mahabharata. He showed intense interest in the religious teachings, especially of the Hindu and Sufi Saints. He was brought up by his mother Jijabai and also by his administrator Dadoji Kond Deo. Dadoji taught him horse riding, archery, patta, and also several other fighting techniques after his father left for Karnataka with his second wife Tukabai.
-            </p>
-            <p>
-                <h4>The Rise of Chhatrapati Shivaji Maharaj</h4>
-                By the 16th Century, The Deccan region of India came under the rule of the Mughal Empire established in Delhi. The uplands of Maratha were captured by the Adilshahi Sultanate on its north, a tributary state of the Mughal Emperor.  Shahaji Bhonsle was established as the chieftain of this region which belonged to the family of Bhonsle clan. Later, he became a rebel and started campaigns and raids against the Mughal Empire establishing forts. However, he was supported by the Bijapur government but was never successful. So he had to run from fort to fort with his Jijabai and son Shivaji. The condition in which Shivaji grew up made him a great king later. 
-                By 16, he had his band of fighters and continued the fight for Shahaji. In 1647, he took over the administration of Poona against the Bijapur government. This was a major step and led to conflict with Bijapur. Subsequently, in a concise period, he also captured the forts of Purandhara, Kondhana, and Chakan. Then Supa, Baramati, and Inderpuri came into control of Shivaji Maharaj. The loot gathered helped him to build a capital fort at Raigad. Shivaji Maharaj is more famous for the new military tactics he formulated and used to fight his enemies in such terrains. This new method of gorilla tactics helped him to capture many forts within no time and brought a significant portion of the region under his control.
-
-
-Bijapur government became conscious of his wins and imprisoned Shahaji in 1648. After his release in a year, Shivaji Maharaj stayed low and consolidated the region under his rule. In 1656 he again began his raids and campaigns and captured the valley of Javali near Mahabaleshwar. Additionally, Shivaji Maharaj successfully subdued many other families with Deshmukhi rights under Adilshah of Bijapur. 
-
-
-In conclusion, Shivaji's life was full of hostilities with the kingdoms surrounding the Maratha region and also allianced to fight the wars. Finally, he established the Kingdom of Maratha and is still remembered as a great king of India.
-            </p>
-        </section>
-        <footer>
-            <p>For more information, visit <a href="https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Maharaj" target="_blank">Wikipedia</a></p>
-        </footer>
+        <h1>To-Do App</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add new task...">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <div class="tasks-container">
+            <div class="pending-tasks" id="pendingTasks">
+                <h2>Pending Tasks</h2>
+            </div>
+            <div class="completed-tasks" id="completedTasks">
+                <h2>Completed Tasks</h2>
+            </div>
+        </div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
